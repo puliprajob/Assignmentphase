@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap');
+:root{
+    --primary: #9966FF
+     --dark: #000000
+     --body: #FFFFFF
+     --box-shadow: 0 8px 22px rgba(0,0,0,0.1)
+}
+.navbar li{
+    padding: 0%;
+    margin-left: 10%;
+}
+body{
+    background-color: darkgrey;
+    font-family: sora, "sans-serif";
+    line-height: 1.7;
+    color: #fff
+}
+h1,h2,h3,h4,h5,h6
+.display-4{
+    color: var(--dark);
+}
+.mymargine{
+     margin-top: 3%;
+     margin-left: 3%;
+}
+.content{
+    text-align: center;
+    background-color: cornflowerblue;
+    float: right;
+    border: 2px solid black;
+    width: 25%;
+    margin-top: 15%;
+    margin-left: 2%;
+    margin-bottom: 15%;
+}

@@ -1,0 +1,171 @@
+/* .navbar li{
+    padding: 0%;
+    margin-left: 10%;
+}
+body{
+    font-family: sora, "sans-serif";
+    line-height: 1.7;
+    color: #fff
+}
+h1,h2,h3,h4,h5,h6
+.display-4{
+    color: var(--dark);
+}
+a{
+    color: var(--dark);
+    text-decoration: none;
+}
+.margin{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 3em;
+}
+/* body{
+   background-position: center;
+   background-size: cover;
+   background-attachment:fixed;
+   position: relative;
+   z-index: 2;
+} */
+/* label{
+    font-size: 150%;
+    font-weight: bold;
+}
+.margin{
+    background:url(image/1635210.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    position: relative;
+    z-index: 2;
+ }
+ .margin::after{
+     border-radius: 2em;
+     content: "";
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background-color:  rgb(21, 20, 51, 0.7);
+     z-index: -1;
+ } */
+ *{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.close a{
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 90%;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+h2{
+    margin-top: 20px;
+    background-color: rgba(111, 134, 134, 0.7);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    padding: 20px 40px;
+    margin: 0;
+
+}
+form{
+    color: rgb(255, 255, 255);
+    background-color:  rgba(111, 134, 134, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+    padding: 30px 40px;
+    
+}
+.formcontrol{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+label{
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input{
+    background-color:  rgba(189, 230, 230, 0.7);
+    border: 2px solid #575151;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+}
+.formcontrol i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+button{
+    background-color: mediumpurple;
+    border: 2px solid mediumpurple;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 4px;
+}
+.success i.fa-check-circle{
+color: green;
+visibility: visible;
+}
+.success input{
+    border-color: green;
+}
+.error i.fa-exclamation-circle{
+    color: red;
+    visibility: visible;  
+}
+.error input{
+    border-color: red;
+}
+.error small{
+    visibility: visible;
+    color: red;
+}
+.weak i.fa-exclamation-circle{
+    color: orange;
+    visibility: visible;
+}  
+.weak input{
+    border-color: orange;
+}
+.weak small{
+    visibility: visible;
+    color: orange;
+}
+
+.tex{
+    text-align: center;
+}
+

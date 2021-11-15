@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap');
+:root{
+    --primary: #9966FF
+     --dark: #000000
+     --body: #FFFFFF
+     --box-shadow: 0 8px 22px rgba(0,0,0,0.1)
+}
+.navbar li{
+    padding: 0%;
+    margin-left: 10%;
+}
+body{
+    font-family: sora, "sans-serif";
+    line-height: 1.7;
+    color: #fff
+}
+h1,h2,h3,h4,h5,h6
+.display-4{
+    color: var(--dark);
+}
+a{
+    color: var(--dark);
+    text-decoration: none;
+}
+.content{
+   background:url(123.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment:fixed;
+   position: relative;
+   z-index: 2;
+}
+.content::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:  rgb(21, 20, 51, 0.7);
+    z-index: -1;
+}

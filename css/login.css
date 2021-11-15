@@ -1,0 +1,147 @@
+
+.navbar li{
+    padding: 0%;
+    margin-left: 10%;
+}
+a{
+    color: var(--dark);
+    text-decoration: none;
+}
+.margin{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 18%;
+    text-align: left;
+    border: teal;
+    background-color: rgb(144, 155, 216);
+    padding: 30px;
+    border-radius: 2em;
+}
+.mymargin{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.margin button{
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.close i{
+    color: rgb(240, 68, 68);
+   font-size: 30px;
+    top: 10px;
+    right: 5px;
+    float: right;
+    padding: 10px;
+}
+h2{
+    background-color: rgba(154, 152, 196, 0.7);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    padding: 20px 40px;
+    margin: 0;
+
+}
+form{
+    color: rgb(255, 254, 254);
+    background-color:  rgba(94, 92, 133, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+    padding: 30px 40px;
+    
+}
+.formcontrol{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+label{
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+}
+.formcontrol i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+button{
+    background-color: mediumpurple;
+    border: 2px solid mediumpurple;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 4px;
+}
+.success i.fa-check-circle{
+color: green;
+visibility: visible;
+}
+.success input{
+    border-color: green;
+}
+.error i.fa-exclamation-circle{
+    color: red;
+    visibility: visible;  
+}
+.error input{
+    border-color: red;
+}
+.error small{
+    visibility: visible;
+    color: red;
+}
+.weak i.fa-exclamation-circle{
+    color: orange;
+    visibility: visible;
+}  
+.weak input{
+    border-color: orange;
+}
+.weak small{
+    visibility: visible;
+    color: orange;
+}
+
+.tex{
+    text-align: center;
+}
+#signup{
+    color:rgb(245, 128, 235);
+}
+.sub{
+margin-top: 10%;
+
+}

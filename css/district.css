@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap');
+:root{
+    --primary: #9966FF
+     --dark: #000000
+     --body: #FFFFFF
+     --box-shadow: 0 8px 22px rgba(0,0,0,0.1)
+}
+.navbar li{
+    padding: 0%;
+    margin-left: 10%;
+}
+body{
+    background-color: rgb(67, 67, 134);
+    font-family: sora, "sans-serif";
+    line-height: 1.7;
+    color: #fff
+}
+h1,h2,h3,h4,h5,h6
+.display-4{
+    color: var(--dark);
+}
+a{
+    color: var(--dark);
+    text-decoration: none; 
+}
+.district a{
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+}
+.district{
+    margin-left: 5%;   
+}
+#tvm{
+    background: url(tvm1.jpg);
+    padding: 5% 8%;
+   
+}
+#klm{
+    background: url(kollam1.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
+#pta{
+    background: url(pta1.jpg);
+    padding: 5% 6%;
+    background-size: cover;
+}
+#ala{
+    background: url(ala1.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
+#ktm{
+    background: url(ktm1.jpg);
+    padding: 5% 8%;
+    background-size: cover;   
+}
+#idi{
+    background: url(idi1.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
+#era{
+    background: url(era1.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
+#tsr{
+    background: url(tsr1.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
+#plk{
+    background: url(plk1.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
+#mlp{
+    background: url(mlp1.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
+#kzk{
+    background: url(kzk.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
+#wyd{
+    background: url(wyd1.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
+#knr{
+    background: url(knr1.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
+#ksd{
+    background: url(ksd1.jpg);
+    padding: 5% 8%;
+    background-size: cover;
+}
